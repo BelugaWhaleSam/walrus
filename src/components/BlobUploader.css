@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #212529; /* Dark text */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #ffffff; /* White container background */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #007bff; /* Blue headings */
+  }
+  
+  .form-label {
+    color: #495057; /* Neutral grey for labels */
+  }
+  
+  .form-control {
+    background-color: #ffffff; /* White input field */
+    border: 1px solid #ced4da; /* Neutral border */
+    color: #495057; /* Neutral text */
+  }
+  
+  .form-control:focus {
+    background-color: #ffffff;
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue glow */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Blue buttons */
+    border-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    border-color: #0056b3;
+  }
+  
+  .card {
+    background-color: #ffffff; /* White card background */
+    color: #212529; /* Dark text */
+    border: 1px solid #ced4da; /* Neutral border for cards */
+    margin-top: 1rem;
+  }
+  
+  .card a {
+    color: #007bff; /* Blue links */
+  }
+  
+  .card a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da; /* Light red alert background */
+    color: #842029; /* Dark red text */
+    border: 1px solid #f5c2c7;
+  }
+  
